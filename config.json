@@ -4,15 +4,16 @@
     "projects": true,
     "experience": true,
     "skills": true,
-    "github_projects": true
+    "github_projects": true,
+    "education": true
   },
   "site": {
     "title": "vasanthk77",
     "description": "Developer Portfolio",
     "seo": {
       "title": "vasanthk77 - Developer Portfolio",
-      "description": "Developer Portfolio of vasanthk77",
-      "keywords": "developer, portfolio, github",
+      "description": "Developer Portfolio of vasanthk77 - AI/ML Developer & Data Scientist",
+      "keywords": "developer, portfolio, machine learning, AI, data science, python, github",
       "author": "vasanthk77",
       "og_image": "https://avatars.githubusercontent.com/vasanthk77",
       "twitter_card": "summary_large_image",
@@ -20,8 +21,8 @@
     }
   },
   "header": {
-    "greeting": "vasanthk77",
-    "tagline": "Developer and Creator."
+    "greeting": "Hi, I'm Vasanth K",
+    "tagline": "AI/ML Developer, Data Scientist, and Creator."
   },
   "social_links": [
     {
@@ -29,25 +30,56 @@
       "url": "https://github.com/vasanthk77",
       "icon": "github",
       "required": true
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/vasanthk",
+      "icon": "linkedin",
+      "required": true
+    },
+    {
+      "name": "Email",
+      "url": "mailto:vasanthk8688@gmail.com",
+      "icon": "mail",
+      "required": true
     }
   ],
   "github_username": "vasanthk77",
   "about": {
     "paragraphs": [
-      "Welcome to my portfolio! I'm passionate about creating amazing digital experiences and solving complex problems through code.",
-      "This portfolio showcases my journey, projects, and skills. Feel free to explore and get in touch if you'd like to collaborate!"
+      "I'm an AI/ML developer and data scientist passionate about building production-ready solutions and transforming data into actionable insights.",
+      "My expertise spans machine learning, deep learning, and natural language processing. I enjoy collaborating on projects that solve real-world problems, and I'm always ready for new challenges!"
     ]
   },
   "projects": {
     "title": "Featured Projects",
     "items": [
       {
+        "name": "Movie Recommendation System",
+        "date": "2024",
+        "description": [
+          "Developed a system with content-based and collaborative filtering to suggest movies based on user preferences.",
+          "Engineered features from genres, tags, and ratings, using cosine similarity for recommendations.",
+          "Evaluated using precision@10 and MAP metrics for accurate top-N suggestions."
+        ],
+        "picture": "assets/projects/Placeholder.png"
+      },
+      {
+        "name": "Language Translation System using Hugging Face",
+        "date": "2024",
+        "description": [
+          "Built an English-French translation system with 90%+ accuracy using Hugging Face’s pre-trained models and transformer architecture.",
+          "Processed and translated over 1,000 sentences, demonstrating scalable multilingual capability."
+        ],
+        "picture": "assets/projects/Placeholder.png"
+      },
+      {
         "name": "Portfolio Website",
         "date": "June 27, 2025",
         "description": [
-          "A modern, responsive portfolio website built with vanilla JavaScript",
-          "Features dark/light mode, dynamic content loading, and GitHub integration",
-          "Fully configurable through JSON with automated README generation"
+          "A modern, responsive portfolio website built with vanilla JavaScript.",
+          "Features dark/light mode, dynamic content loading, and GitHub integration.",
+          "Fully configurable through JSON with automated README generation."
         ],
         "picture": "assets/projects/Placeholder.png",
         "link": {
@@ -61,17 +93,26 @@
     "title": "Professional Experience",
     "jobs": [
       {
-        "company": "Your Company Name",
-        "role": "Your Job Title",
-        "date": "Start Date - Present",
+        "company": "Fyenn Labs",
+        "role": "AI and ML Intern",
+        "date": "Aug 2024 – Present",
         "responsibilities": [
-          "Add your key responsibilities and achievements here",
-          "Include specific technologies you worked with",
-          "Mention any notable projects or impact metrics",
-          "Update this section with your actual work experience"
+          "Developed ML models with 15% increased predictive accuracy for real-time applications.",
+          "Utilized Python and ML frameworks to create production-ready solutions.",
+          "Boosted model deployment efficiency by 20% through workflow optimization and team collaboration."
         ],
-        "logo": "assets/logos/Placeholder_Logo.png",
-        "logo_dark": "assets/logos/Placeholder_Logo.png"
+        "logo": "assets/logos/Placeholder_Logo.png"
+      },
+      {
+        "company": "Innomatics Research Labs",
+        "role": "Data Science Intern",
+        "date": "Feb 2023 – May 2023",
+        "responsibilities": [
+          "Analyzed datasets exceeding 300,000 entries and developed predictive models with Python.",
+          "Improved model performance by 20% through rigorous testing and optimization.",
+          "Conducted data preprocessing, feature engineering, and effectively communicated insights to teams."
+        ],
+        "logo": "assets/logos/Placeholder_Logo.png"
       }
     ]
   },
@@ -79,32 +120,63 @@
     "title": "Skills & Technologies",
     "categories": [
       {
-        "name": "Programming Languages & Technologies",
+        "name": "Programming Languages",
         "items": [
-          "JavaScript",
           "Python",
-          "Java",
-          "TypeScript"
+          "C++"
+        ]
+      },
+      {
+        "name": "Machine Learning & Data Science",
+        "items": [
+          "Machine Learning",
+          "Deep Learning",
+          "Natural Language Processing",
+          "Data Science Pipeline",
+          "Statistics",
+          "Hypothesis Testing"
         ]
       },
       {
         "name": "Tools & Platforms",
         "items": [
+          "CI/CD Pipelines",
           "Git",
           "GitHub",
-          "VS Code",
-          "Docker"
+          "VS Code"
         ]
       },
       {
-        "name": "Certifications",
+        "name": "Databases",
         "items": [
-          {
-            "name": "Add your certification name here",
-            "url": "https://example.com/your-certification-link"
-          },
-          "You can also add certifications without links"
+          "DBMS",
+          "MongoDB"
         ]
+      },
+      {
+        "name": "Achievements",
+        "items": [
+          "Top 100 in AWS DeepRacer League (Reinforcement Learning & Model Optimization)",
+          "Top 10% of data science interns at Innomatics Research Lab Hackathon"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "schools": [
+      {
+        "school": "PES University",
+        "degree": "Master of Technology in Computer Science",
+        "date": "Oct 2024 – Aug 2026",
+        "location": "Bengaluru, Karnataka"
+      },
+      {
+        "school": "Presidency University",
+        "degree": "Bachelor of Technology in Computer Science",
+        "date": "Aug 2020 – Aug 2024",
+        
+        "location": "Bengaluru, Karnataka"
       }
     ]
   },
