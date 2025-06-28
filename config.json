@@ -22,7 +22,8 @@
   },
   "header": {
     "greeting": "Hi, I'm Vasanth K",
-    "tagline": "AI/ML Developer, Data Scientist, and Creator."
+    "tagline": "AI/ML Developer, Data Scientist, and Creator.",
+    "profile_pic": "https://avatars.githubusercontent.com/vasanthk77"
   },
   "social_links": [
     {
