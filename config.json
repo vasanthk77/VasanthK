@@ -33,7 +33,7 @@
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/vasanthk",
+      "url": "https://www.linkedin.com/in/vasanth-k-54abbb225/",
       "icon": "linkedin",
       "required": true
     },
@@ -175,7 +175,6 @@
         "school": "Presidency University",
         "degree": "Bachelor of Technology in Computer Science",
         "date": "Aug 2020 – Aug 2024",
-        
         "location": "Bengaluru, Karnataka"
       }
     ]
